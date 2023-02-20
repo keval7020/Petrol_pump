@@ -3,10 +3,7 @@ body{
     padding: 0px;
     background-image: url(img/back.jpg);
     color: white;
-    height: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
+    height: 700px;
 }
 .left{
     
@@ -32,14 +29,9 @@ body{
     position: absolute;
     right: 3px;
     width: 208px;
-    height: 64px;
+    top: 10px;
+    height: 30px;
     border-radius: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
-    flex-direction: row;
-    margin-top: 16px;
-   align-content: center;
 }
 .right input{
     height: 30px;
@@ -70,21 +62,13 @@ body{
 .mid{
     margin: 16px 330px;
     width: 620px;
-    height: 64px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
+    height: 30px;
  
 }
 .navbar{
     width: 620px;
-    margin-top: 0px;
-    margin-left: -40px;
-    height: 64px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
-    flex-direction: row;
+    margin-top: 5px;
+    margin-left: -16px;
 }
 
 .navbar li {
@@ -97,7 +81,6 @@ body{
     margin-left: 8px;
     text-align: center;
     border-radius: 22px;
- 
     
 }
 .navbar li:hover{
@@ -129,11 +112,11 @@ body{
     color: orange;
 }
 .form{
-    padding: 14px 4px;
+    padding: 08px 4px;
 }
 header{
     font-size: 65px;
-    margin-left: -50px;
+    margin-left: 20px;
 }
 .form input{
     width: 325px;
@@ -142,6 +125,7 @@ header{
     border: 1px solid white;
     font-size: 16px;
     border-radius: 12px;
+    margin-top: 3px;
 }
 .form input:hover{
     border: 3px solid blue;
@@ -178,22 +162,25 @@ color: white;
     border-radius: 12px;
 }
 .form button a{
+  background: none;
+  text-decoration: none;
+  color: white;
+}
+.form button{
     background: none;
-    text-decoration: none;
-    color: white;
-  }
-  .form button{
-      background: none;
-      margin: 7px 0px;
-      width: 333px;
-      height: 35px;
-      font-size: 19px;
-      border-radius: 12px;
-      border: 1px solid white;
-  }
+    margin: 7px 0px;
+    width: 333px;
+    height: 35px;
+    font-size: 19px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+.form button:hover{
+    border: 3px solid blue;
+}
 strong{
-    font-size: 20px;
-    margin-left: -5px;
+    font-size: 25px;
+    margin-left: 45px;
 }
 a button{
     width: 133px;
@@ -203,7 +190,6 @@ a button{
     color: white;
     font-size: 18px;
     border-radius: 12px;
-    back
 }
 a button:hover{
     border: 3px solid blue;
@@ -213,7 +199,8 @@ a button:hover{
     height: 444px;
     width: 1259px;
     display: inline-block;
-    margin-top: 350px;
+    margin-top: 30px;
+    margin-left: -445px;
 }
 .pump img{
     width: 1255px;
